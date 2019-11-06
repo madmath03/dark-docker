@@ -1,5 +1,5 @@
 @-moz-document url-prefix("https://cloud.docker.com"), url-prefix("https://hub.docker.com") {
-     /*
+/*
      * DockerHub Dark Theme (2019).
      * 
      * CC BY - Creative Commons Attribution
@@ -28,7 +28,9 @@ body, html {
 .styles__header___2DnGz,
 .styles__wrapperContainer___2QLz1,
 .styles__subnavWrapper___17yeU ,
-.styles__contextNav___1ObFd, .styles__whiteBackground___3WIqM,
+.styles__contextNav___1ObFd,
+#contextNav, .styles__tabs___3tAcy,
+.styles__whiteBackground___3WIqM,
 .styles__fullWhiteBackground___2V8gz {
     background-color: #222;
     border-color: #000;
@@ -36,6 +38,10 @@ body, html {
 }
 .styles__rightBorder___2bUo6 {
     border-color: #000;
+}
+
+.styles__breadcrumb___9YQZc {
+    color: #ccc;
 }
 
 .styles__photoWrapper___3q6TR {
@@ -47,9 +53,11 @@ body, html {
 .styles__breadcrumb___1yjjL, .styles__productTab___2YNtd {
     color: #ccc;
 }
+.styles__breadcrumb___9YQZc:before,
 .styles__breadcrumb___1yjjL:before {
     border-left: 10px solid hsla(0,0%,13%,.3)
 }
+.styles__breadcrumb___9YQZc:after,
 .styles__breadcrumb___1yjjL:after {
     border-left: 10px solid #000;
 }
@@ -68,23 +76,48 @@ body, html {
     background-color: #222;
     border-color: #000;
 }
-.styles__tab___1Uffa {
+.styles__tab___ztJkZ, .styles__tab___1Uffa {
     color: #ccc;
 }
 
 
 /* Base */
 .styles__body___T4UNY, .styles__content___3u8I1,
-.styles__wrapper___6NJME, .styles__wrapper___2ogzR {
+.styles__wrapper___6NJME, .styles__wrapper___2ogzR,
+.styles__content___IXwbL {
     background-color: #333;
+}
+
+.styles__info___by7-H,
+.styles__card___16ovJ, 
+.styles__card___1d1uz {
+    background-color: #222;
+    border-color: #000;
 }
 
 .styles__card___gktOa,
 .styles__card___1NOfq,
-.styles__newDesign___Ly9u3,
+.styles__newDesign___1bl2t, .styles__newDesign___Ly9u3,
 .styles__container___MKQec {
     background-color: #2c2c2c;
     border-color: #000;
+}
+
+.styles__cardContents___24i6T table {
+    background-color: #2c2c2c !important;
+    border-color: #000;
+}
+
+.styles__cardContents___24i6T table tr {
+    border-color: #000 !important;
+}
+
+.styles__cardContents___24i6T table th {
+    color: #eee !important;
+}
+
+.styles__cardContents___24i6T table td {
+    color: #c6dae7 !important;
 }
 
 .styles__box___2xwmj, .styles__startReviewSection___2vUI1, .styles__ratingsSummary___JQCwl {
@@ -92,7 +125,7 @@ body, html {
     border-color: #000;
 }
 
-.styles__repoUsage___1ODoH {
+.styles__repoUsage___1GVBC , .styles__repoUsage___1ODoH {
     color: #bfcdd4;
 }
 .boldContent, .content {
@@ -160,6 +193,7 @@ body, html {
 
 /* Repositories */
 
+li.styles__item___2-BI1:first-of-type .styles__content___lHbRE, .styles__content___lHbRE,
 li.styles__item___1gG3-:first-of-type .styles__content___1LQdY {
     border-color: #000;
 }
@@ -292,37 +326,47 @@ li.styles__item___1gG3-:first-of-type .styles__content___1LQdY {
 
 
 /* Builds */
-.styles__chartHeader___2JQHE {
+.styles__chartHeader___1SMyH, .styles__chartHeader___2JQHE {
     color: #bfcdd4;
 }
 .recharts-legend-item-text {
     color: #fcfcfc;
 }
+.recharts-surface path.recharts-tooltip-cursor,
 .recharts-surface path.recharts-bar-cursor {
     fill: #1c1c1c;
 }
 .recharts-text.recharts-cartesian-axis-tick-value {
     fill: #fcfcfc;
 }
+.styles__nameAndRepo___1P9Ij,
 .styles__nameAndRepo___2WbFv {
     color: #bfcdd4;
 }
+.styles__summary___2iBVy,
 .styles__summary___2Yaql {
     color: #ccc;
 }
+.styles__autobuilds___2M_LU,
 .styles__autobuilds___xdA7f {
     border-color: #000;
 }
+.styles__infoText___2lAjq,
 .styles__infoText___3Vt_p {
     color: #bfcdd4;
 }
 
+.styles__buildRule___JXBwR,
 .styles__buildRule___3nsU_ {
     color: #ccc;
 }
+.styles__radioGroup___2PzbN svg, .styles__radioGroup___2PzbN label,
 .styles__radioGroup___2dJ_6 svg, .styles__radioGroup___2dJ_6 label {
     color: #bfcdd4!important;
     /*fill: #bfcdd4!important;*/
+}
+.styles__button___21omF svg {
+    fill: #bfcdd4;
 }
 .styles__codeblock___3GP3r,
 .styles__code___2Rfl-,
@@ -357,16 +401,20 @@ textarea {
 .styles__noActions___2vTy_ {
     background-color: #222;
 }
+.item__item___1PZCB .item__content___22Kbs.item__collapsed___2l0By, .item__item___1PZCB .item__content___22Kbs,
 .item__item___3l8Hv .item__content___2v1Wd.item__collapsed___11IrH, .item__item___3l8Hv .item__content___2v1Wd {
     background-color: #222;
     border-color: #000;
 }
+.item__item___1PZCB .item__content___22Kbs:after,
 .item__item___3l8Hv .item__content___2v1Wd:after, .item__item___3l8Hv .item__content___2v1Wd:after {
     border-color: transparent #222 transparent transparent;
 }
+.item__item___1PZCB .item__content___22Kbs:before,
 .item__item___3l8Hv .item__content___2v1Wd:before {
     border-color: transparent #000 transparent transparent;
 }
+.item__item___1PZCB .item__title___366tS h4,
 .item__item___3l8Hv .item__title___uuAgu h4 {
     color: #ccc;
 }
@@ -374,7 +422,12 @@ textarea {
     fill: #bfcdd4;
 }
 
-/* TODO Permissions */
+/* Collaborators */
+
+.styles__text___60f0c,
+.styles__text___3ozoH {
+    color: #ccc;
+}
 
 /* Webhooks */
 /*
@@ -385,17 +438,18 @@ textarea {
     margin: 5px;
 }
 */
+.styles__main___2b7eu div,
 .styles__main___3TX4M div {
     color: #829dab!important;
 }
+.styles__main___2b7eu input,
 .styles__main___3TX4M input {
     color: #ccc!important;
 }
+.styles__cardText___2Cqzk,
 .styles__cardText___2Rth9 {
     color: #bfcdd4;
 }
 
 /* TODO Settings */
-
-
 }
