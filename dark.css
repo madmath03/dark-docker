@@ -1,15 +1,50 @@
-@-moz-document url-prefix("https://cloud.docker.com"), url-prefix("https://hub.docker.com") {
+@-moz-document url-prefix("https://cloud.docker.com"), url-prefix("https://hub.docker.com"), url-prefix("https://id.docker.com") {
 /*
-     * DockerHub Dark Theme (2019).
-     * 
-     * CC BY - Creative Commons Attribution
-     */
+ * DockerHub Dark Theme (2019).
+ * 
+ * CC BY - Creative Commons Attribution
+ */
 
 body, html {
     color: #fcfcfc;
     background-color: #333333;
 }
 
+/* Home page */
+
+.styles__homeLandingPage___2ZaL_ {
+    color: #fcfcfc;
+    background-color: #333333;
+}
+
+.styles__repoSection___2E4Nh .styles__repoGrid___3VXPb .styles__repoCard___Xf2nS {
+    background-color: #292929;
+}
+
+.styles__bottomSection___3iUl7 {
+    background: #333333!important;
+}
+
+.styles__cardWrapper___x_xbl {
+    background-color: #888;
+    border-color: #292929;
+}
+
+/* Login / Signup */
+
+.styles__container__2KCEh, .styles__white___NRcyJ {
+    color: #fcfcfc;
+    background-color: #333333;
+}
+
+.styles__loginWrapper__1Ct3n {
+    background-color: #222;
+}
+
+.styles__titleSubHeader___13XDf .styles__mainTitle___3_abT,
+.styles__secondaryCubeHeader__30Xhe, .styles__tertiaryCubeHeader__3Oy6D {
+    color: #fcfcfc;
+}
 
 
 /* Header */
