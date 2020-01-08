@@ -61,7 +61,11 @@ body, html {
 .styles__profileHeader___niDUC,
 .styles__headerContainer___1pY7J, 
 .styles__header___2DnGz,
+.styles__header___3oh7G,
+.styles__header___3YvnA,
+.styles__header___2Nbw8,
 .styles__wrapperContainer___2QLz1,
+
 .styles__subnavWrapper___17yeU ,
 .styles__contextNav___1ObFd,
 #contextNav, .styles__tabs___3tAcy,
@@ -105,8 +109,8 @@ body, html {
 
 
 /* Tabs */
-.styles__tabsSection___1D23b,
-.styles__tabsSection___1Pcgc,
+.styles__tabsSection___2Gs_c,
+.styles__tabs___2WMQc,
 .styles__tabs___3yaRm, .styles__tabs___84i52 {
     background-color: #222;
     border-color: #000;
@@ -119,6 +123,7 @@ body, html {
 /* Base */
 .styles__body___T4UNY, .styles__content___3u8I1,
 .styles__wrapper___6NJME, .styles__wrapper___2ogzR,
+.styles__wrapper___1NKRy,
 .styles__content___IXwbL {
     background-color: #333;
 }
@@ -166,9 +171,6 @@ body, html {
 }
 .boldContent, .content {
     color: #bfcdd4;
-}
-.styles__header___2Nbw8 {
-    color: #fcfcfc;
 }
 
 .dMarkdown h1, .dMarkdown h2 {
@@ -288,7 +290,8 @@ li.styles__item___1gG3-:first-of-type .styles__content___1LQdY {
     background-color: #1c1c1c;
     border-color: #000;
 }
-.styles__listItem___3-hI7 .styles__name___2ceJn {
+.styles__listItem___3-hI7 .styles__name___2ceJn,
+.styles__listItem___tLArg .styles__name___1ejQ9 {
     color: #bfcdd4;
 }
 .styles__content___30Ty9 {
@@ -300,7 +303,7 @@ li.styles__item___1gG3-:first-of-type .styles__content___1LQdY {
 .styles__description___1vzbU, .styles__noDescription___2Cdx3 {
     color: #bfcdd4;
 }
-.styles__modalClass___16NVA {
+.styles__modalClass___30qQ1 {
     background-color: #2c2c2c!important;
 }
 
